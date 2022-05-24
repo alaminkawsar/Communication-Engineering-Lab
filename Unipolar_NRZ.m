@@ -19,6 +19,8 @@ end
 plot(t,x,'LineWidth',3);
 axis([0 T -2 2]);
 
+grid on;
+
 j=1;
 
 for i=1:length(x)
