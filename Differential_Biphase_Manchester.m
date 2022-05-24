@@ -29,6 +29,7 @@ else
   ans_bits(1)=0;
 end
 
+%Demodulation
 for i=101:length(x)-1
   if mod(i-1,n)==0
     if x(i)==x(i-n)
